@@ -1,0 +1,94 @@
+/* styles.css */
+
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #f9f5f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Caveat', cursive;
+    background-color: #ff6b6b;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 48px;
+    color: #fff;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #fff;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+.game-description {
+    background-color: #ffc3a0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-section {
+    background-color: #ffd700;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-section a button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-section a button:hover {
+    background-color: #ffaa8a;
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0;
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+@keyframes colorChange {
+    0% { color: #ff6b6b; }
+    25% { color: #ffaa8a; }
+    50% { color: #ffcccb; }
+    75% { color: #ffd700; }
+    100% { color: #ff6b6b; }
+}
+
+body {
+    text-decoration: none;
+    font-size: 16px;
+    animation: colorChange 10s linear infinite; /* Change '10s' to control the duration */
+}
