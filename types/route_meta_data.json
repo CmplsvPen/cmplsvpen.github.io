@@ -1,0 +1,99 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin": [
+		"src/routes/admin/+page.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/email": [
+		"src/routes/admin/email/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/homepage": [
+		"src/routes/admin/homepage/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/homepage/challenges/[specificChallenge]": [
+		"src/routes/admin/homepage/challenges/[specificChallenge]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/homepage/faq/[faqQuestion]": [
+		"src/routes/admin/homepage/faq/[faqQuestion]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/homepage/schedule/[event]": [
+		"src/routes/admin/homepage/schedule/[event]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/questions": [
+		"src/routes/admin/questions/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admissions": [
+		"src/routes/admissions/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/apply": [
+		"src/routes/apply/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/files/[user]/[question]": [
+		"src/routes/files/[user]/[question]/+server.ts"
+	],
+	"/id": [
+		"src/routes/id/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/login": [
+		"src/routes/login/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/login/oauth": [
+		"src/routes/login/oauth/+server.ts"
+	],
+	"/login/oauth/github": [
+		"src/routes/login/oauth/github/+server.ts"
+	],
+	"/login/oauth/google": [
+		"src/routes/login/oauth/google/+server.ts"
+	],
+	"/login/reset-password": [
+		"src/routes/login/reset-password/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/login/verify-email/[token]": [
+		"src/routes/login/verify-email/[token]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/logout": [
+		"src/routes/logout/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/register": [
+		"src/routes/register/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/scan": [
+		"src/routes/scan/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/scan/[action]": [
+		"src/routes/scan/[action]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/unverified": [
+		"src/routes/unverified/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/users": [
+		"src/routes/users/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/users/download-data": [
+		"src/routes/users/download-data/+server.ts"
+	]
+}
