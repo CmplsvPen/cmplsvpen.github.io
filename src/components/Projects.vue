@@ -2,7 +2,7 @@
   <h2>Projects</h2>
   <div class="project-container">
     <div class="project-card">
-      <a href="rodeo.freetailhackers.com">Rodeo</a>
+      <a href="https://rodeo.freetailhackers.com">Rodeo</a>
       <img src="/bat.svg"></img>
       <p>An open source hackathon management website and official backend for Freetail Hackers' hackathons</p>
     </div>
@@ -27,8 +27,8 @@
   }
 
   .project-container {
-    /* width: 50em; */
-    max-width: 50em;
+    width: 50em;
+    max-width: 80vw;
     column-width: 20em;
     column-rule: dashed var(--foreground);
   }
