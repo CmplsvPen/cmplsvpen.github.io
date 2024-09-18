@@ -3,24 +3,26 @@
 :root {
   font-family: Jura, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 500;
 
-  --white: #ffe9d3;
-  --slate: #2f363e;
+  --foreground: #213547;
+  --background: #fff;
   color-scheme: light dark;
-  color: var(--white);
-  background-color: var(--slate);
+  color: var(--foreground);
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
 }
 
-.michroma-regular {
-  font-family: "Michroma", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.dark {
+  color-scheme: dark;
+  --foreground: #ffe9d3;
+  --background: #2f363e;
 }
 
 body {
@@ -43,9 +45,6 @@ h1 {
   text-align: center;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+img {
+  max-width: 100%;
 }

@@ -10,12 +10,14 @@
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
+    "@vueuse/core": "^11.1.0",
+    "s": "file:",
     "three": "^0.168.0",
     "vue": "^3.4.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
-    "vite": "^5.4.1",
-    "execa": "latest"
+    "execa": "latest",
+    "vite": "^5.4.1"
   }
 }
