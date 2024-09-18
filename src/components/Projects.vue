@@ -27,7 +27,8 @@
   }
 
   .project-container {
-    width: 50em;
+    /* width: 50em; */
+    max-width: 50em;
     column-width: 20em;
     column-rule: dashed var(--foreground);
   }
