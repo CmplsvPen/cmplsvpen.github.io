@@ -23,7 +23,7 @@
 * {
   transition-property: background-color color;
   transition-duration: .5s;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .dark {
