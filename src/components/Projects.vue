@@ -4,11 +4,11 @@
     <div class="project-card">
       <a href="https://rodeo.freetailhackers.com">Rodeo</a>
       <img src="/bat.svg"></img>
-      <p>An open source hackathon management website and official backend for Freetail Hackers' hackathons</p>
+      <p>An open source hackathon management website and official backend for the Freetail Hackers' hackathons</p>
     </div>
     <div class="project-card">
       <a href="https://hacktx.com">HackTX 24</a>
-      <img src="/hacktx.png"></img>
+      <img src="/HackTX24 Banner.png"></img>
       <p>The frontend for the Freetail Hackers' 12th annual hackathon at UT Austin!</p>
     </div>
     <div class="project-card">
