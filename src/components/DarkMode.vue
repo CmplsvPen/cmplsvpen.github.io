@@ -1,7 +1,7 @@
 <script setup>
   import { useDark, useToggle } from '@vueuse/core'
 
-  const darkMode = useDark();
+  const darkMode = useDark({ disableTransition: false });
   const toggleDarkMode = useToggle(darkMode);
 
 </script>
