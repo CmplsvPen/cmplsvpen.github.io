@@ -3,7 +3,7 @@
   I'm Khang! I'm currently studying Computer Science at the University of Texas at Austin. I'm helping organize hackathons with the <a href="https://freetailhackers.com">Freetail Hackers</a>.
   I am passionate about frontend development and creating a great user experience
   <br><br>
-  <h3>I also enjoy learning guitar and piano!<br>Here are the songs I've been trying to learn</h3>
+  <h3>I also enjoy learning guitar and piano!<br>Here are the songs I've been learning.</h3>
   <ul>
     <li>
       <img draggable=false src="/albums/Imperfect.jpg"/>
