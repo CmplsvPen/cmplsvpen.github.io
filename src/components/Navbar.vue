@@ -17,7 +17,7 @@ import DarkMode from "./DarkMode.vue";
 <style scoped>
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   filter: drop-shadow(0 0 10px #000000aa);
   background: var(--background);

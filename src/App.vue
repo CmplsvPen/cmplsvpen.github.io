@@ -16,6 +16,7 @@ import Navbar from "./components/Navbar.vue";
 <style scoped>
 .main-content {
   margin-top: 5em;
+  max-width: 50rem;
 }
 
 .v-enter-active,
