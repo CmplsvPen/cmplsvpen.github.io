@@ -8,8 +8,8 @@
 
 <template>
   <span @click="toggleDarkMode()" id="dark-mode-button">
-    <img v-if="!darkMode" src="/sun.svg"/>
-    <img v-if="darkMode" src="/moon.svg"/>
+    <img v-show="!darkMode" src="/sun.svg"/>
+    <img v-show="darkMode" src="/moon.svg"/>
   </span>
 </template>
 
