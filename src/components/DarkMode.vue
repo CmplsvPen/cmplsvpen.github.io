@@ -7,14 +7,16 @@
 </script>
 
 <template>
-  <span @click="toggleDarkMode()" id="dark-mode-button">
-    <img v-if="!darkMode" src="/sun.svg"/>
-    <img v-if="darkMode" src="/moon.svg"/>
-  </span>
+  <!-- Preload svgs so they don't pop in -->
+  <link rel="preload" href="/sun.svg" as="image"/>
+  <link rel="preload" href="/moon.svg" as="image"/>
+  <img v-if="!darkMode" draggable=false @click="toggleDarkMode()" src="/sun.svg" />
+  <img v-if="darkMode"  draggable=false @click="toggleDarkMode()" src="/moon.svg" />
 </template>
 
 <style scoped>
-  #dark-mode-button {
+  img {
     cursor: pointer;
+    user-select: none;
   }
 </style>
