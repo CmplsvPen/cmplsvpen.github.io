@@ -4,6 +4,7 @@
   font-family: Jura, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 500;
+  font-size: 20px;
 
   --foreground: #213547;
   --background: #f8f0e0;
@@ -21,8 +22,7 @@
 }
 
 * {
-  transition-property: background-color color;
-  transition-duration: .5s;
+  transition: background-color 0.5s, color 0.5s;
   /* outline: 1px solid red; */
 }
 
@@ -59,4 +59,10 @@ h1 {
 
 img {
   max-width: 100%;
+}
+
+@media (width < 780px) {
+  :root {
+    font-size: 16px;
+  }
 }

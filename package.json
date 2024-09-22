@@ -13,7 +13,8 @@
     "@vueuse/core": "^11.1.0",
     "s": "file:",
     "three": "^0.168.0",
-    "vue": "^3.4.37"
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",

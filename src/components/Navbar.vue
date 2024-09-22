@@ -5,7 +5,12 @@ import DarkMode from "./DarkMode.vue";
 <template>
   <nav>
     <h2>Khang Tran</h2>
-    <DarkMode/>
+    <span id="links">
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/projects">Projects</RouterLink>
+      <a href="/Khang_Tran_Resume.pdf">Resume</a>
+      <DarkMode/>
+    </span>
   </nav>
 </template>
 
@@ -26,5 +31,20 @@ nav {
   left: 0;
   right: 0;
   color: var(--white);
+  z-index: 100;
+}
+h2 {
+  margin: 0.5em 0;
+}
+#links {
+  display: flex;
+  align-items: center;
+}
+#links * {
+  padding: 0 0.5em;
+}
+a {text-decoration: none;}
+a.router-link-active {
+  text-decoration: underline;
 }
 </style>
