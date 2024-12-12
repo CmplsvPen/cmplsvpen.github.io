@@ -7,6 +7,12 @@
     <h3>I also enjoy learning guitar and piano!<br>Here are the songs I've been learning.</h3>
     <ul>
       <li>
+        <img draggable=false src="/albums/AKG.jpg"/>
+        <b>Rockn' Roll, Morning Light Falls on You</b>
+        <span>Asian Kung-Fu Generation</span>
+        <span>In-progress </span>
+      </li>
+      <li>
         <img draggable=false src="/albums/Imperfect.jpg"/>
         <b>Missing Ling</b>
         <span>Ling Toshite Sigure</span>
@@ -46,12 +52,6 @@
         <img draggable=false src="/albums/NG Evangelion.jpg"/>
         <b>Rei I</b>
         <span>Shiro Sagisu</span>
-        <span>Done</span>
-      </li>
-      <li>
-        <img draggable=false src="/albums/Alter Ego.jpg"/>
-        <b>Ghost of a Smile</b>
-        <span>Egoist</span>
         <span>Done</span>
       </li>
     </ul>

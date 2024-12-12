@@ -40,5 +40,8 @@
     border: 2px solid var(--foreground);
     padding: 1em;
     margin: 1em;
+    
+    top: 0;
+    left: 0;
   }
 </style>

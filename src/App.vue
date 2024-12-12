@@ -18,9 +18,9 @@ import { RouterView } from "vue-router";
 
 <style scoped>
 .main-content {
-  padding-top: 4rem;
+  padding: 4rem 0;
   max-width: 50rem;
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - 8rem);
 }
 
 .v-enter-active,
