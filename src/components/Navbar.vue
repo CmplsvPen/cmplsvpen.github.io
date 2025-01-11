@@ -7,7 +7,7 @@ import DarkMode from "./DarkMode.vue";
     <h3>Khang Tran</h3>
     <span id="links">
       <RouterLink to="/">Home</RouterLink>
-      <a href="/Khang_Tran_Resume.pdf">Resume</a>
+      <a href="/Khang_Tran_Resume.pdf" target="_blank">Resume</a>
       <DarkMode/>
     </span>
   </nav>
