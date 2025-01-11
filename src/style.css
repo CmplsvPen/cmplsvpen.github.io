@@ -41,6 +41,14 @@ body {
   min-height: 100vh;
 }
 
+section {
+  margin: 2rem 0;
+}
+
+p {
+  margin: 0;
+}
+
 a {
   color: var(--accent);
 }
