@@ -10,8 +10,10 @@
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.0.14",
     "@vueuse/core": "^11.1.0",
     "s": "file:",
+    "tailwindcss": "^4.0.14",
     "three": "^0.168.0",
     "vue": "^3.4.37",
     "vue-router": "^4.4.5"
@@ -19,6 +21,6 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
     "execa": "latest",
-    "vite": "^5.4.1"
+    "vite": "^6.2.2"
   }
 }
