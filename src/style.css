@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Michroma&display=swap');
 
+@import "tailwindcss";
+
+@theme {
+  --color-water: #4287f5;
+  --color-page: #f8f0e0;
+  --color-black: #213547;
+}
+
 :root {
   font-family: Jura, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 500;
   font-size: 20px;
-
+/* 
   --foreground: #213547;
   --background: #f8f0e0;
   --accent: #2937ff;
   color-scheme: light dark;
   color: var(--foreground);
-  background-color: var(--background);
+  background-color: var(--background); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,18 +40,18 @@
   --background: #2f363e;
   --accent: #ffb429;
 }
-
+/* 
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
-section {
+/* section {
   margin: 2rem 0;
-}
+} */
 
 p {
   margin: 0;
@@ -57,19 +65,13 @@ h1 {
   font-size: 3.2rem;
   line-height: 1.1;
 }
-
+/* 
 #app {
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
-}
+} */
 
 img {
   max-width: 100%;
-}
-
-@media (width < 780px) {
-  :root {
-    font-size: 16px;
-  }
 }

@@ -5,7 +5,7 @@ import { RouterView } from "vue-router";
 
 <template>
   <Navbar/>
-  <div class="main-content">
+  <div class="m-auto h-2/3 w-1/2 p-4 rounded-sm overflow-y-scroll bg-page text-black">
     <router-view v-slot="{ Component }">
       <transition mode="out-in">
         <!-- <div :key="$route.path"> -->
@@ -17,12 +17,6 @@ import { RouterView } from "vue-router";
 </template>
 
 <style scoped>
-.main-content {
-  padding: 4rem 0;
-  max-width: 50rem;
-  min-height: calc(100vh - 8rem);
-}
-
 .v-enter-active,
 .v-leave-active {
   transition: opacity 0.2s ease-in-out;

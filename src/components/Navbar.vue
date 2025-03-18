@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from "vue-router";
 import DarkMode from "./DarkMode.vue";
 </script>
 
@@ -7,6 +8,9 @@ import DarkMode from "./DarkMode.vue";
     <h3>Khang Tran</h3>
     <span id="links">
       <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/projects">Projects</RouterLink>
+      <RouterLink to="/music">Music</RouterLink>
+      <RouterLink to="/skills">Skills</RouterLink>
       <a href="/Khang_Tran_Resume.pdf" target="_blank">Resume</a>
       <DarkMode/>
     </span>
@@ -27,8 +31,8 @@ nav {
   z-index: 100;
   
   filter: drop-shadow(0 0 10px #000000aa);
-  background: var(--background);
-  color: var(--white);
+  /* background: var(--background); */
+  /* color: var(--white); */
 }
 h3 {
   margin: 1em 0.5em;
