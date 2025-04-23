@@ -5,8 +5,8 @@ import DarkMode from "./DarkMode.vue";
 
 <template>
   <nav>
-    <h3>Khang Tran</h3>
-    <span id="links">
+    <h3 class="bg-page shadow-custom px-4 py-2">Khang Tran</h3>
+    <span id="links" class="flex align-center bg-page shadow-custom">
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/projects">Projects</RouterLink>
       <RouterLink to="/music">Music</RouterLink>
@@ -29,22 +29,20 @@ nav {
   right: 0;
   height: 4rem;
   z-index: 100;
-  
-  filter: drop-shadow(0 0 10px #000000aa);
-  /* background: var(--background); */
-  /* color: var(--white); */
 }
+
 h3 {
   margin: 1em 0.5em;
 }
-#links {
-  display: flex;
-  align-items: center;
-}
 #links > * {
-  padding: 0 0.5em;
+  padding: 0.5em 0.5em;
 }
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: var(--color-page-darker);
+}
 a.router-link-active {
   text-decoration: underline;
 }

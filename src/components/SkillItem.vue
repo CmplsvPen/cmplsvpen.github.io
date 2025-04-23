@@ -27,8 +27,8 @@ const playSound = () => {
 </script>
 
 <template>
-  <div @mouseover="playSound" class="skill-item h-8 w-8 bg-red-500">
-    <img :src="icon" class="icon" />
+  <div @mouseover="playSound" class="skill-item aspect-square drop-shadow-md">
+    <img :src="icon" class="" />
     <audio ref="audioRef" src="src/assets/sfx/click.mp3" preload="auto"></audio>
     <span class="tooltip">
       <strong>{{ skill }}</strong>{{ blurb }}
@@ -40,6 +40,8 @@ const playSound = () => {
 <style scoped>
 .skill-item {
   position: relative;
+  transition: transform 0.1s;
+  z-index: 0;
 }
 
 .skill-item .tooltip {
@@ -50,6 +52,10 @@ const playSound = () => {
   background-color: black;
   color: #fff;
   z-index: 1;
+}
+
+.skill-item:hover {
+  transform: translateY(-4px);
 }
 
 .skill-item:hover .tooltip {

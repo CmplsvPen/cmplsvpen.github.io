@@ -5,7 +5,9 @@
 @theme {
   --color-water: #4287f5;
   --color-page: #f8f0e0;
+  --color-page-darker: #e8e0d0;
   --color-black: #213547;
+  --shadow-custom: black 1px 1px 4px;
 }
 
 :root {
@@ -29,29 +31,32 @@
   scroll-behavior: smooth;
 }
 
-* {
-  transition: background-color 0.5s, color 0.5s;
-  /* outline: 1px solid red; */
-}
-
 .dark {
   color-scheme: dark;
-  --foreground: #ffe9d3;
-  --background: #2f363e;
+  --foreground: var(--color-black);
+  --background: var(--color-page);
   --accent: #ffb429;
 }
-/* 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
 
-/* section {
-  margin: 2rem 0;
-} */
+body {
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content:"";
+  position: absolute;
+  background: radial-gradient(#bbb 2px, transparent 2px);
+  background-color: var(--color-page);
+  background-size: 10px 10px;
+  width: 200%;
+  height: 400%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  transform: rotate(45deg);
+  animation: pan 2s linear infinite;
+}
 
 p {
   margin: 0;
@@ -65,13 +70,16 @@ h1 {
   font-size: 3.2rem;
   line-height: 1.1;
 }
-/* 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
-} */
 
 img {
   max-width: 100%;
+}
+
+@keyframes pan {
+  0% {
+    transform: translateX(0) rotate(45deg);
+  }
+  100% {
+    transform: translateX(-14px) rotate(45deg);
+  }  
 }
