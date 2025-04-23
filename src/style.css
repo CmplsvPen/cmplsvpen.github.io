@@ -46,7 +46,7 @@ body {
 body::before {
   content:"";
   position: absolute;
-  background: radial-gradient(#bbb 2px, transparent 2px);
+  /* background: radial-gradient(#bbb 2px, transparent 2px); */
   background-color: var(--color-page);
   background-size: 10px 10px;
   width: 200%;

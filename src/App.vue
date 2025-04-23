@@ -5,6 +5,7 @@ import { RouterView } from "vue-router";
 
 <template>
   <Navbar/>
+  <div class="background absolute w-dvw h-dvh bg-black z-[-1]" ></div>
   <div class="main-container m-auto h-2/3 w-2/3 p-4 rounded-sm overflow-y-scroll bg-page text-black">
     <router-view v-slot="{ Component }">
       <transition mode="out-in">
@@ -20,6 +21,12 @@ import { RouterView } from "vue-router";
 .v-enter-active,
 .v-leave-active {
   transition: opacity 0.2s ease-in-out;
+}
+
+.background {
+  mask-image: url("dotsbg.svg");
+  mask-size: 25px;
+  mask-mode: alpha;
 }
 
 .v-enter-from,
