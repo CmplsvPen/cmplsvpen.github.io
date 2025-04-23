@@ -27,8 +27,8 @@ const playSound = () => {
 </script>
 
 <template>
-  <div @mouseover="playSound" class="skill-item aspect-square drop-shadow-md">
-    <img :src="icon" class="" />
+  <div @mouseover="playSound" class="skill-item aspect-square drop-shadow-md cursor-pointer">
+    <img :src="icon"/>
     <audio ref="audioRef" src="src/assets/sfx/click.mp3" preload="auto"></audio>
     <span class="tooltip">
       <strong>{{ skill }}</strong>{{ blurb }}

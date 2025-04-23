@@ -1,6 +1,8 @@
 <template>
   <section id="projects-section">
-    <h2>Projects</h2>
+    <h2>Hi 👋</h2>
+    I'm Khang! I'm currently studying Computer Science at the University of Texas at Austin. I'm helping organize hackathons with the <a href="https://freetailhackers.com">Freetail Hackers</a>.
+    I am passionate about frontend development and creating a great user experience!
     <div class="project-container">
       <div class="project-card">
         <img src="/rodeo.png"></img>

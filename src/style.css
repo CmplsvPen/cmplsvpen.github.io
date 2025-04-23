@@ -4,9 +4,9 @@
 
 @theme {
   --color-water: #4287f5;
-  --color-page: #f8f0e0;
+  --color-page: var(--background);
   --color-page-darker: #e8e0d0;
-  --color-black: #213547;
+  --color-black: var(--foreground);
   --shadow-custom: black 1px 1px 4px;
 }
 
@@ -15,13 +15,13 @@
   line-height: 1.5;
   font-weight: 500;
   font-size: 20px;
-/* 
+
   --foreground: #213547;
   --background: #f8f0e0;
   --accent: #2937ff;
   color-scheme: light dark;
   color: var(--foreground);
-  background-color: var(--background); */
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,8 +33,8 @@
 
 .dark {
   color-scheme: dark;
-  --foreground: var(--color-black);
-  --background: var(--color-page);
+  --foreground: #f8f0e0;
+  --background: #213547;
   --accent: #ffb429;
 }
 
@@ -56,6 +56,10 @@ body::before {
   z-index: -1;
   transform: rotate(45deg);
   animation: pan 2s linear infinite;
+}
+
+* {
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 p {
