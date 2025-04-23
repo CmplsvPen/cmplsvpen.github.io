@@ -25,7 +25,7 @@ import { RouterView } from "vue-router";
 
 .background {
   mask-image: url("dotsbg.svg");
-  mask-size: 25px;
+  mask-size: 10px;
   mask-mode: alpha;
 }
 
